@@ -17,7 +17,7 @@ Rules:
 - Forming multiple digit numbers from the supplied digits is disallowed. (So an answer of 12+12 when given 1, 2, 2, and 1 is wrong).
 - The order of the digits when given does not have to be preserved.
 ```
-Example input	     Example output
+Example input	          Example output
 solve24("4878");	    (7-8/8)*4
 solve24("1234");	     3*1*4*2
 solve24("6789");	   (6*8)/(9-7)
