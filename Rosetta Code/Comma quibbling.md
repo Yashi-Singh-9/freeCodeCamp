@@ -3,6 +3,7 @@
 ### Description
 
 [Comma quibbling](https://rosettacode.org/wiki/Comma_quibbling) is a task originally set by Eric Lippert in his blog.
+
 --- 
 
 Write a function to generate a string output which is the concatenation of input words from a list/sequence where:
