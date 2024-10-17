@@ -7,12 +7,12 @@ Determine whether a generated string of brackets is balanced; that is, whether i
 Examples:
 ```
 Input	       Output
-[]	            true
-][	            false
+[]	        true
+][	        false
 [][]	        true
-][]	            false
+][]	        false
 []][[]	        false
-[[[[]]]]	    true
+[[[[]]]]	true
 ```
 
 ### Tests
