@@ -23,10 +23,10 @@ Input number	Output number
 ```
 Unit	    Suffix used in Output	    Conversion
 week	        `wk`	                1 week = 7 days
-day	             `d`	                1 day = 24 hours
-hour	          `hr`	                1 hour = 60 minutes
-minute	          `min`	                1 minute = 60 seconds
-second	          `sec`	                    ---
+day	        `d`	                1 day = 24 hours
+hour	        `hr`	                1 hour = 60 minutes
+minute	        `min`	                1 minute = 60 seconds
+second	        `sec`	                         ---
 ```
 
 - However, only include quantities with non-zero values in the output (e.g., return `1 d` and not `0 wk, 1 d, 0 hr, 0 min, 0 sec`).
