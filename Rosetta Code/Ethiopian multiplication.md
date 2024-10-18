@@ -18,30 +18,30 @@ For example: `17 × 34`
 
 Halving the first column:
 
-17   34
-8
-4
-2
+17      34 <br>
+8 <br>
+4 <br>
+2 <br>
 1
 
 Doubling the second column:
 
-17   34
-8    68
-4   136
-2   272
-1   544
+17   34 <br>
+8    68 <br>
+4   136 <br>
+2   272 <br>
+1   544 
 
 Strike-out rows whose first cell is even:
 
-17   34
-8    <strike>68</strike>
-4   <strike>136</strike>
-2   <strike>272</strike>
+17   34 <br>
+8    <strike>68</strike> <br>
+4   <strike>136</strike> <br>
+2   <strike>272</strike> <br>
 1   544
 
 Sum the remaining numbers in the right-hand column:
-
+```
 17   34
 8    --
 4   ---
@@ -49,7 +49,7 @@ Sum the remaining numbers in the right-hand column:
 1   544
    ====
     578
-
+```
 So `17` multiplied by `34`, by the Ethiopian method is `578`.
 
 ---

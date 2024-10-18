@@ -5,21 +5,22 @@
 An equilibrium index of a sequence is an index into the sequence such that the sum of elements at lower indices is equal to the sum of elements at higher indices.
 
 For example, in a sequence *A* :
-    A<sub>0</sub> = −7    
-    A<sub>1</sub> = 1    
-    A<sub>2</sub> = 5    
-    A<sub>3</sub> = 2    
-    A<sub>4</sub> = −4
-    A<sub>5</sub> = 3
-    A<sub>6</sub> = 0
+
+A<sub>0</sub> = −7    
+A<sub>1</sub> = 1    
+A<sub>2</sub> = 5    
+A<sub>3</sub> = 2    
+A<sub>4</sub> = −4 <br>
+A<sub>5</sub> = 3 <br>
+A<sub>6</sub> = 0
  
 `3` is an equilibrium index, because:
 
-A<sub>0</sub>+A<sub>1</sub>+A<sub>2</sub> = A<sub>4</sub>+A<sub>5</sub>+A<sub>6</sub>
+A<sub>0</sub> + A<sub>1</sub> + A<sub>2</sub> = A<sub>4</sub>+ A<sub>5</sub> + A<sub>6</sub>
  
 `6` is also an equilibrium index, because:
 
-A<sub>0</sub>+A<sub>1</sub>+A<sub>2</sub>+A<sub>3</sub>+A<sub>4</sub>+A<sub>5</sub>=0
+A<sub>0</sub> + A<sub>1</sub> + A<sub>2</sub> + A<sub>3</sub>+ A<sub>4</sub> + A<sub>5</sub> = 0
  
 (sum of zero elements is zero)
 
