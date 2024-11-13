@@ -1,0 +1,41 @@
+# Declare the Doctype of an HTML Document
+
+### Description
+
+The challenges so far have covered specific HTML elements and their uses. However, there are a few elements that give overall structure to your page, and should be included in every HTML document.
+
+At the top of your document, you need to tell the browser which version of HTML your page is using. HTML is an evolving language, and is updated regularly. Most major browsers support the latest specification, which is HTML5. However, older web pages may use previous versions of the language.
+
+You tell the browser this information by adding the `<!DOCTYPE ...>` tag on the first line, where the `...` part is the version of HTML. For HTML5, you use `<!DOCTYPE html>`.
+
+The `!` and uppercase `DOCTYPE` is important, especially for older browsers. The `html` is not case sensitive.
+
+Next, the rest of your HTML code needs to be wrapped in `html` tags. The opening `<html>` goes directly below the `<!DOCTYPE html>` line, and the closing `</html>` goes at the end of the page.
+
+Here's an example of the page structure. Your HTML code would go in the space between the two `html` tags.
+
+```html
+<!DOCTYPE html>
+<html>
+
+</html>
+```
+
+---
+
+Add a `DOCTYPE` tag for HTML5 to the top of the blank HTML document in the code editor. Under it, add opening and closing `html` tags, which wrap around an `h1` element. The heading can include any text.
+
+### Tests
+
+1. Your code should include a `<!DOCTYPE html>` tag.
+2. There should be one `html` element.
+3. The `html` tags should wrap around one `h1` element.
+
+### Solution
+
+```html
+<!DOCTYPE html>
+<html>
+  <h1></h1>
+</html>
+```
