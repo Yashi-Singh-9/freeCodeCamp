@@ -9,7 +9,7 @@ We can do this by changing the `style` of your `h2` element.
 The property that is responsible for the `color` of an element's text is the color style property.
 
 Here's how you would set your `h2` element's text color to blue:
-```
+```html
 <h2 style="color: blue;">CatPhotoApp</h2>
 ```
 

@@ -9,12 +9,12 @@ When you entered `<h2 style="color: red;">CatPhotoApp</h2>`, you were styling th
 That's one way to specify the style of an element, but there's a better way to apply CSS.
 
 At the top of your code, create a `style` block like this:
-```
+```css
 <style>
 </style>
 ```
 Inside that style block, you can create a CSS selector for all `h2` elements. For example, if you wanted all `h2` elements to be red, you would add a style rule that looks like this:
-```
+```css
 <style>
   h2 {
     color: red;
