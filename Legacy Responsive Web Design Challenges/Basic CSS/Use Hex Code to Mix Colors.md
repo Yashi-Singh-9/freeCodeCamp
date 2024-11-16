@@ -17,10 +17,10 @@ The digit `F` is the highest number in hex code, and represents the maximum poss
 Replace the color words in our `style` element with their correct hex codes.
 
 ```
-Color	        Hex Code
+Color	            Hex Code
 Dodger Blue	    #1E90FF
-Green	        #00FF00
-Orange	        #FFA500
+Green	            #00FF00
+Orange	            #FFA500
 Red	            #FF0000
 ```
 
