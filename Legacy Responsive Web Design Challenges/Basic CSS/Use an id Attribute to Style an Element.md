@@ -8,9 +8,12 @@ However, an id is not reusable and should only be applied to one element. An id 
 
 Here's an example of how you can take your element with the id attribute of cat-photo-element and give it the background color of green. In your style element:
 
+```css
 #cat-photo-element {
   background-color: green;
 }
+```
+
 Note that inside your style element, you always reference classes by putting a . in front of their names. You always reference ids by putting a # in front of their names.
 
 Try giving your form, which now has the id attribute of cat-photo-form, a green background.
