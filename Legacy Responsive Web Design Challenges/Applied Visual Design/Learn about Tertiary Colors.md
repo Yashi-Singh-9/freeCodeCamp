@@ -14,7 +14,7 @@ Here are three colors created using the split-complement scheme:
 Color	        Hex Code
 orange	        #FF7F00
 cyan	        #00FFFF
-raspberry	    #FF007F
+raspberry	#FF007F
 ```
 
 ---
