@@ -9,7 +9,7 @@ The `fieldset` tag surrounds the entire grouping of radio buttons to achieve thi
 The `fieldset` wrapper and `legend` tag are not necessary when the choices are self-explanatory, like a gender selection. Using a `label` with the `for` attribute for each radio button is sufficient.
 
 Here's an example:
-
+```html
 <form>
   <fieldset>
     <legend>Choose one of these three items:</legend>
@@ -21,7 +21,7 @@ Here's an example:
     <label for="three">Choice Three</label>
   </fieldset>
 </form>
-
+```
 ---
 
 Camper Cat wants information about the ninja level of his users when they sign up for his email list. He's added a set of radio buttons and learned from our last lesson to use `label` tags with `for` attributes for each choice. Go Camper Cat! However, his code still needs some help. Change the `div` tag surrounding the radio buttons to a `fieldset` tag, and change the `p` tag inside it to a `legend`.
